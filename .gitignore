@@ -1,0 +1,24 @@
+# 系统文件
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# build_portable.py 默认输出目录
+dist/
+
+# 校准范例为内部资产，不随公开仓库分发（见 assets/exemplars/README.md）
+assets/exemplars/*.html
+assets/exemplars/*.png
+
+# BD 固定页图片资产（客户 logo 墙=客户名单，属内部资产，不随公开仓库分发）
+assets/templates/bd/img/
+
+# BD 固定页中含本公司实质介绍内容的页面属内部资产（同 img/），不随公开仓库分发；
+# 公开版保留 toc/section（通用结构）与机制说明，内部部署时放入全部 7 页
+assets/templates/bd/advantage.html
+assets/templates/bd/company.html
+assets/templates/bd/thinktank.html
+assets/templates/bd/soe.html
+assets/templates/bd/service.html

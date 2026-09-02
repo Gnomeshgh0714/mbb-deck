@@ -1,0 +1,7 @@
+interface:
+  display_name: "MBB 咨询风 HTML Deck"
+  short_description: "将分析材料转化为品牌蓝灰风格的 16:9 HTML 汇报页"
+  brand_color: "#0E58C4"
+  default_prompt: "Use $mbb-deck to turn this material into a fixed 16:9 consulting-style HTML deck."
+policy:
+  allow_implicit_invocation: true
